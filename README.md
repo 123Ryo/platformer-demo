@@ -53,6 +53,12 @@
 
 ---
 
+## 🎬 遊戲影片展示
+
+👉 [遊戲展示影片](DemoVideo/PlatformerDemo.mp4)
+
+---
+
 ## 👨‍💻 作者
 
 - 姓名 :陳榆 / GitHub 帳號 123Ryo:
