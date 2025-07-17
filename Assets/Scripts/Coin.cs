@@ -7,10 +7,10 @@ public class Coin : MonoBehaviour
 
     private void Start()
     {
-        // 🔹 自動尋找場景中的 GameManager（只需有一個）
+        // 🔹 自動尋找場景中的 GameManager
         gameManager = GameObject.FindObjectOfType<GameManager>();
 
-        // 🔹 嘗試從自己身上抓取 CoinSound 腳本（記得把 CoinSound.cs 加在同一個物件上）
+        // 🔹 嘗試從自己身上抓取 CoinSound 腳本並把 CoinSound.cs 加在同一個物件上）
         coinSound = GetComponent<CoinSound>();
 
         if (gameManager == null)
@@ -26,7 +26,7 @@ public class Coin : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // 🔹 確認碰到的是玩家（Tag 記得設成 Player）
+        // 🔹 確認碰到的是玩家（Tag 設成 Player）
         if (other.CompareTag("Player"))
         {
             // 🔹 通知 GameManager 增加硬幣數量

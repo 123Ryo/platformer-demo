@@ -3,7 +3,7 @@ using UnityEngine;
 public class SettingsToggle : MonoBehaviour
 {
     public GameObject settingsPanel;
-    public GameObject player; // 🔹 這是你的玩家物件（拖進來）
+    public GameObject player; // 玩家物件
 
     private bool isOpen = false;
 

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TrapSound : MonoBehaviour
 {
-    public AudioClip hitSound;              // 播放的音效（從 Inspector 設定）
+    public AudioClip hitSound;              // 播放的音效
     private AudioSource audioSource;
 
     void Awake()
